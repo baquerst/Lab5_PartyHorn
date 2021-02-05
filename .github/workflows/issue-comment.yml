@@ -13,7 +13,7 @@ jobs:
     steps:
 
       - name: Add funny comment
-        uses: Marta83/funny-comment-action@v.21
+        uses: Marta83/funny-comment-action@v2.1
         id: funnyComment
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
